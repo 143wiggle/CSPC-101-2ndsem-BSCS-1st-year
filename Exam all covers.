@@ -1,0 +1,616 @@
+ CSPC101 EXAM REVIEWER: SET THEORY, RELATIONS, DOMAIN & RANGE
+This reviewer summarizes all key topics for your CSPC101 exam, covering Set Theory, Relations, Domain & Range with examples.
+
+📌 1. SET THEORY
+A set is a collection of distinct objects or elements.
+
+🔹 Set Notation
+Roster Method → Listing elements:
+
+Example: 
+𝐴
+=
+{
+1
+,
+2
+,
+3
+,
+4
+}
+A={1,2,3,4}
+
+Set-Builder Notation → Using conditions to define elements:
+
+Example: 
+𝐵
+=
+{
+𝑥
+∣
+𝑥
+>
+0
+,
+𝑥
+ is an integer
+}
+B={x∣x>0,x is an integer}
+
+🔹 Types of Sets
+Set Type	Definition	Example
+Finite Set	Has a limited number of elements.	
+𝑆
+=
+{
+2
+,
+4
+,
+6
+,
+8
+}
+S={2,4,6,8}
+Infinite Set	Has an unlimited number of elements.	
+𝑆
+=
+{
+1
+,
+2
+,
+3
+,
+…
+ 
+}
+S={1,2,3,…}
+Empty (Null) Set	A set with no elements.	
+𝑆
+=
+{
+}
+S={} or 
+𝑆
+=
+∅
+S=∅
+Singleton Set	A set with only one element.	
+𝑆
+=
+{
+5
+}
+S={5}
+Equal Sets	Two sets with exactly the same elements.	
+𝐴
+=
+{
+1
+,
+2
+,
+3
+}
+,
+𝐵
+=
+{
+3
+,
+2
+,
+1
+}
+⇒
+𝐴
+=
+𝐵
+A={1,2,3},B={3,2,1}⇒A=B
+Equivalent Sets	Two sets with the same number of elements.	( A = {a,b,c}, B = {x,y,z} \Rightarrow
+Subset	A set where all elements belong to another set.	
+𝐴
+=
+{
+1
+,
+2
+}
+,
+𝐵
+=
+{
+1
+,
+2
+,
+3
+,
+4
+}
+⇒
+𝐴
+⊂
+𝐵
+A={1,2},B={1,2,3,4}⇒A⊂B
+Superset	A set that contains another set.	
+𝐵
+⊃
+𝐴
+B⊃A
+Universal Set	The set containing all elements under consideration.	
+𝑈
+=
+{
+1
+,
+2
+,
+3
+,
+4
+,
+5
+,
+6
+}
+U={1,2,3,4,5,6}
+🔹 Power Sets
+The power set of a set 
+𝑆
+S is the set of all subsets of 
+𝑆
+S.
+Formula: If 
+𝑆
+S has 
+𝑛
+n elements, then the power set has 
+2
+𝑛
+2 
+n
+  subsets.
+
+Example: If 
+𝑆
+=
+{
+𝑎
+,
+𝑏
+}
+S={a,b}, then:
+Power Set: 
+𝑃
+(
+𝑆
+)
+=
+{
+∅
+,
+{
+𝑎
+}
+,
+{
+𝑏
+}
+,
+{
+𝑎
+,
+𝑏
+}
+}
+P(S)={∅,{a},{b},{a,b}}
+
+🔹 Set Operations
+Operation	Symbol	Example
+Union	
+𝐴
+∪
+𝐵
+A∪B	
+{
+1
+,
+2
+}
+∪
+{
+2
+,
+3
+}
+=
+{
+1
+,
+2
+,
+3
+}
+{1,2}∪{2,3}={1,2,3}
+Intersection	
+𝐴
+∩
+𝐵
+A∩B	
+{
+1
+,
+2
+,
+3
+}
+∩
+{
+2
+,
+3
+,
+4
+}
+=
+{
+2
+,
+3
+}
+{1,2,3}∩{2,3,4}={2,3}
+Difference	
+𝐴
+−
+𝐵
+A−B	
+{
+1
+,
+2
+,
+3
+}
+−
+{
+2
+,
+3
+,
+4
+}
+=
+{
+1
+}
+{1,2,3}−{2,3,4}={1}
+Complement	
+𝐴
+𝑐
+A 
+c
+ 	
+𝑈
+=
+{
+1
+,
+2
+,
+3
+,
+4
+}
+,
+𝐴
+=
+{
+1
+,
+2
+}
+,
+𝐴
+𝑐
+=
+{
+3
+,
+4
+}
+U={1,2,3,4},A={1,2},A 
+c
+ ={3,4}
+📌 2. DOMAIN, RANGE, AND TYPES
+A function is a relation where each input (domain) has exactly one output.
+
+🔹 Domain & Range
+Domain → The set of all possible inputs (x-values).
+
+Range → The set of all possible outputs (y-values).
+
+Example:
+Given the function:
+𝑓
+(
+𝑥
+)
+=
+𝑥
+2
+f(x)=x 
+2
+ 
+
+Domain: 
+𝑅
+R (all real numbers)
+
+Range: 
+𝑦
+≥
+0
+y≥0 (all non-negative numbers)
+
+🔹 Types of Functions
+Function Type	Definition	Example
+One-to-One (Injective)	Each input has a unique output.	
+𝑓
+(
+𝑥
+)
+=
+2
+𝑥
+f(x)=2x
+Onto (Surjective)	Every output has at least one input.	
+𝑓
+(
+𝑥
+)
+=
+𝑥
+3
+f(x)=x 
+3
+ 
+Bijective	Both one-to-one and onto.	
+𝑓
+(
+𝑥
+)
+=
+𝑥
++
+1
+f(x)=x+1
+📌 3. RELATIONS & ANALYSIS
+A relation is a set of ordered pairs 
+(
+𝑥
+,
+𝑦
+)
+(x,y).
+
+🔹 Types of Relations
+Relation Type	Definition	Example
+Reflexive	Every element relates to itself.	
+𝑎
+𝑅
+𝑎
+∀
+𝑎
+∈
+𝐴
+aRa∀a∈A
+Symmetric	If 
+𝑎
+𝑅
+𝑏
+aRb, then 
+𝑏
+𝑅
+𝑎
+bRa.	
+(
+1
+,
+2
+)
+⇒
+(
+2
+,
+1
+)
+(1,2)⇒(2,1)
+Transitive	If 
+𝑎
+𝑅
+𝑏
+aRb and 
+𝑏
+𝑅
+𝑐
+bRc, then 
+𝑎
+𝑅
+𝑐
+aRc.	
+(
+1
+,
+2
+)
+,
+(
+2
+,
+3
+)
+⇒
+(
+1
+,
+3
+)
+(1,2),(2,3)⇒(1,3)
+Equivalence Relation	A relation that is reflexive, symmetric, and transitive.	
+=
+,
+≅
+=,≅
+🔹 Example: Relation Analysis
+Set 
+𝐴
+=
+{
+1
+,
+2
+,
+3
+}
+A={1,2,3}, Relation 
+𝑅
+=
+{
+(
+1
+,
+1
+)
+,
+(
+2
+,
+2
+)
+,
+(
+3
+,
+3
+)
+,
+(
+1
+,
+2
+)
+,
+(
+2
+,
+1
+)
+}
+R={(1,1),(2,2),(3,3),(1,2),(2,1)}
+
+Reflexive? ✅ Yes, because 
+(
+1
+,
+1
+)
+,
+(
+2
+,
+2
+)
+,
+(
+3
+,
+3
+)
+(1,1),(2,2),(3,3) exist.
+
+Symmetric? ✅ Yes, because 
+(
+1
+,
+2
+)
+(1,2) and 
+(
+2
+,
+1
+)
+(2,1) exist.
+
+Transitive? ❌ No, because 
+(
+1
+,
+2
+)
+(1,2) and 
+(
+2
+,
+3
+)
+(2,3) exist, but 
+(
+1
+,
+3
+)
+(1,3) is missing.
+
+Thus, R is not an equivalence relation because it fails transitivity.
+
+📌 FINAL REVIEW SUMMARY
+✅ Set Theory → Covers set notation, types, power sets, and operations (union, intersection, etc.).
+✅ Domain & Range → Defines input-output relationships in functions.
+✅ Relations & Analysis → Relations can be reflexive, symmetric, transitive, or an equivalence relation.
+
+📖 QUICK REVIEW QUESTIONS
+What is the difference between finite and infinite sets?
+
+How do you find the power set of 
+𝑆
+=
+{
+𝑎
+,
+𝑏
+,
+𝑐
+}
+S={a,b,c}?
+
+What is the union of 
+𝐴
+=
+{
+1
+,
+2
+,
+3
+}
+A={1,2,3} and 
+𝐵
+=
+{
+3
+,
+4
+,
+5
+}
+B={3,4,5}?
+
+Define domain and range in a function.
+
+What are the three properties of an equivalence relation?
+
+Give an example of a non-transitive relation.
