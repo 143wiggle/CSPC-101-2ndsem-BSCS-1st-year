@@ -1,0 +1,298 @@
+1. Relation R₁ on Z (Integers):
+Relation: 
+𝑅
+1
+=
+{
+(
+𝑧
+,
+𝑦
+)
+∣
+𝑧
+−
+𝑦
+ is even
+,
+𝑧
+,
+𝑦
+∈
+𝑍
+}
+R 
+1
+​
+ ={(z,y)∣z−y is even,z,y∈Z}
+
+Search on YouTube: "Reflexive, Symmetric, Transitive properties of relations in set theory"
+
+This will help you understand how to check reflexivity, symmetry, and transitivity for relations based on the parity (odd/even) of integers.
+
+2. Relation R₂ on N (Natural Numbers):
+Relation: 
+𝑅
+2
+=
+{
+(
+𝑧
+,
+𝑦
+)
+∣
+𝑧
+ divides 
+𝑦
+,
+𝑧
+,
+𝑦
+∈
+𝑁
+}
+R 
+2
+​
+ ={(z,y)∣z divides y,z,y∈N}
+
+Search on YouTube: "Divisibility relations reflexive, symmetric, transitive properties"
+
+This search will help you understand how divisibility relates to reflexivity, symmetry, and transitivity.
+
+3. Relation Rs on R (Real Numbers):
+Relation: 
+𝑅
+𝑠
+=
+{
+(
+𝑧
+,
+𝑦
+)
+∣
+𝑧
++
+𝑦
+ is odd
+,
+𝑧
+,
+𝑦
+∈
+𝑍
+}
+R 
+s
+​
+ ={(z,y)∣z+y is odd,z,y∈Z}
+
+Search on YouTube: "Reflexive, symmetric, transitive relations with odd/even properties"
+
+This will help you explore relations involving odd and even sums and how they behave with respect to reflexivity, symmetry, and transitivity.
+
+4. Relation on 2:
+Search on YouTube: "Relations on finite sets"
+
+This is a general search that can help understand relations on smaller or finite sets, which may assist in checking properties for this case.
+
+5. Relation Rs on R:
+Relation: 
+𝑅
+𝑠
+=
+{
+(
+𝑧
+,
+𝑦
+)
+∣
+𝑧
++
+𝑦
+ is odd
+,
+𝑧
+,
+𝑦
+∈
+𝑍
+}
+R 
+s
+​
+ ={(z,y)∣z+y is odd,z,y∈Z}
+
+Search on YouTube: "Analyzing properties of relations like odd sum relations"
+
+This search will focus on properties related to odd/even sums and checking how they apply to reflexive, symmetric, and transitive relations.
+
+6. Relation Re on Q (Rational Numbers):
+Relation: 
+𝑅
+𝑒
+=
+{
+(
+𝑥
+,
+𝑦
+)
+∣
+𝑥
+−
+𝑦
+ is a rational number
+,
+𝑥
+,
+𝑦
+∈
+𝑄
+}
+R 
+e
+​
+ ={(x,y)∣x−y is a rational number,x,y∈Q}
+
+Search on YouTube: "Rational number relations reflexive, symmetric, transitive properties"
+
+This will help you understand how to analyze relations involving rational numbers and their properties.
+
+7. Relation Ry on Z (Modulo 3):
+Relation: 
+𝑅
+𝑦
+=
+{
+(
+𝑧
+,
+𝑦
+)
+∣
+𝑧
+≡
+𝑦
+(
+m
+o
+d
+3
+)
+,
+𝑧
+,
+𝑦
+∈
+𝑍
+}
+R 
+y
+​
+ ={(z,y)∣z≡y(mod3),z,y∈Z}
+
+Search on YouTube: "Modular arithmetic and relations reflexive symmetric transitive"
+
+This search will help you explore relations based on modular arithmetic, which is common for congruence relations.
+
+8. Relation Rs on R{0} (Nonzero Real Numbers):
+Relation: 
+𝑅
+𝑠
+=
+{
+(
+𝑧
+,
+𝑦
+)
+∣
+𝑧
+⋅
+𝑦
+>
+0
+,
+𝑧
+,
+𝑦
+∈
+𝑅
+∖
+{
+0
+}
+}
+R 
+s
+​
+ ={(z,y)∣z⋅y>0,z,y∈R∖{0}}
+
+Search on YouTube: "Relations on non-zero real numbers reflexive symmetric transitive"
+
+This will help you understand properties of relations that involve product conditions like being greater than 0.
+
+9. Relation Ry on Z:
+Relation: 
+𝑅
+=
+{
+(
+𝑧
+,
+𝑦
+)
+∣
+𝑧
++
+𝑦
+=
+1
+,
+𝑧
+,
+𝑦
+∈
+𝑍
+}
+R={(z,y)∣z+y=1,z,y∈Z}
+
+Search on YouTube: "Properties of relations where sum equals 1"
+
+This search will focus on relations where sums equal a specific number and will help check for reflexivity, symmetry, and transitivity.
+
+10. Relation Rio on N (Natural Numbers):
+Relation: 
+𝑅
+𝑖
+𝑜
+=
+{
+(
+𝑧
+,
+𝑦
+)
+∣
+𝑧
+ is a multiple of 
+𝑦
+,
+𝑧
+,
+𝑦
+∈
+𝑁
+}
+R 
+io
+​
+ ={(z,y)∣z is a multiple of y,z,y∈N}
+
+Search on YouTube: "Divisibility relations properties reflexive symmetric transitive"
+
+This search will cover divisibility relations in natural numbers and how they relate to the four properties of relations.
